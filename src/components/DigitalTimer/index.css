@@ -1,0 +1,87 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #ffffff, #cffcf1);
+  height: 100vh;
+  background-size: cover;
+  font-family: 'Roboto';
+}
+.title-style {
+  text-align: center;
+  color: #0f172a;
+}
+.timer-container {
+  height: 500px;
+  width: 650px;
+  background-image: url(https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png);
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.timer-box {
+  height: 150px;
+  width: 150px;
+  border-radius: 75px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.body-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.timer-controller-btn {
+  border-width: 0px;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+}
+.timer-controller-icon {
+  height: 50px;
+  width: 50px;
+  margin-top: 20px;
+}
+.timer-controller-container {
+  display: flex;
+  flex-direction: row;
+}
+.timer-controller-label {
+  color: #1e293b;
+  font-size: 30px;
+}
+.set-timer-text {
+  color: #0f172a;
+  font-size: 20px;
+}
+.limit-container {
+  display: flex;
+  flex-direction: row;
+}
+.plus-minus-btn {
+  color: #0f172a;
+  margin: 10px;
+  border-width: 0px;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+}
+.limit-box {
+  height: 30px;
+  width: 30px;
+  border-radius: 5px;
+  background-color: #00d9f5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+.timer-limit {
+  color: #0f172a;
+}
